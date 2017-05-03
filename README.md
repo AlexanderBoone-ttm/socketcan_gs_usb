@@ -2,7 +2,7 @@
 
 This module includes fixes for recent (>4.9) kernels where the existing gs_usb driver attempted to use stack-allocated buffers for USB communication, which caused the driver to fail.
 
-A patch with these fixes is currently awaiting acceptance to the kernel.
+A patch containing these fixes has been accepted to the Linux kernel.
 
 ## Build
 <code>
